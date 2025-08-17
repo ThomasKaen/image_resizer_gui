@@ -28,7 +28,7 @@ Designed to quickly resize, convert, and save multiple images at once — ideal 
 - [Pillow](https://pypi.org/project/Pillow/)
 
 Install dependencies:
-```bash
+`bash
 pip install pillow
 Run the App
 bash
@@ -85,16 +85,6 @@ Automatic compression for web use
 
 Standalone executable (.exe) via PyInstaller
 
-📜 License
-MIT License (or adjust if you prefer a different model).
-
-⭐ If you’re checking this out from Fiverr:
-This is part of my custom coding gigs — feel free to reach out if you want a tailored version of this tool!
-
-yaml
-Copy
-Edit
-
----
-
-Do you want me to **lean heavier into Fiverr marketing tone** (like a mini sales page inside README), or keep it more **developer-friendly** (GitHub-style, technical, polished)?
+📜 **License**: All Rights Reserved © 2025 ThomasKaen  
+This project is for personal/portfolio use only.  
+For commercial use or custom solutions, please contact me via [Fiverr](https://www.fiverr.com/thomas_kaen).
