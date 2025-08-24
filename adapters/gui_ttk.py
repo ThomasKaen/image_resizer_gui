@@ -4,13 +4,13 @@ from tkinter import ttk, filedialog, messagebox
 import threading
 from typing import List, Optional
 
-from ..core import ResizeResult, ResizeOptions
+from ..core.models import ResizeResult, ResizeOptions
 from ..core.io_utils import list_images
 from ..core.resize_service import calc_target_size, resize_many
 
 SUPPORTED_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".tiff"}
 
-class App:
+class ImageResizerGUI:
     def __init__(self, root: tk.Tk):
         self.root = root
         self.root.title("Batch Image Resizer")
@@ -223,7 +223,7 @@ def _safe_float(v, default):
 
 def main():
     root = tk.Tk()
-    App(root)
+    ImageResizerGUI(root)
     root.mainloop()
 
 
